@@ -1,0 +1,75 @@
+*/selector*/
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body
+{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background: burlywood;
+    padding: 0;
+    margin: 0;
+}
+#container
+{
+    height: 450px;
+    width: 380px;
+    background: burlywood;
+    border: 3px solid white;
+    position: relative;
+}
+#container h2
+{
+color: white;
+font-size: 50px;
+position: absolute;
+top: 3%;
+left: 22%;
+}
+#container h1
+{
+    width: 120px;
+    height: 100px;
+    text-align: center;
+    font-size: 120px;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    color: black;
+}
+#buttons
+{
+    height: 40px;
+    width: 230px;
+    position: absolute;
+    bottom: 20%;
+    left: 40px;
+}
+#buttons button
+{
+    background: darkblue;
+    outline: none;
+    border-radius: 5px;
+    color: #fff;
+    border: 1px solid #191c2130;
+    cursor: pointer;
+}
+#addcount
+{ 
+    height:30px;
+    width: 100px;
+    position: absolute;
+    right:17px;
+
+}
+#lowercount
+{ 
+    height:30px;
+    width: 120px;
+    position: absolute;
+    right: 9px;
+}
